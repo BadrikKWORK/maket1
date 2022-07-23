@@ -1,0 +1,20 @@
+.line-with-a-gift {
+  position: relative;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10.21%, #346885), to(#558DAB));
+  background: linear-gradient(360deg, #346885 10.21%, #558DAB 100%);
+}
+.line-with-a-gift__text {
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.line-with-a-gift__gift {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
